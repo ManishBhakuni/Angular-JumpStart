@@ -1,7 +1,7 @@
-<div>
-
-*Emphasized* text.
-
+<div class="line number1 index0 alt2">
+        
+<span class="wysiwyg-underline wysiwyg-font-size-medium">**Symptoms**</span>
+        
 </div>
 	
 	
