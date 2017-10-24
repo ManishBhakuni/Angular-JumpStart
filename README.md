@@ -1,5 +1,5 @@
 
-<div class="line number1 index0 alt2">
+	<div class="line number1 index0 alt2">
         
 <span class="wysiwyg-underline wysiwyg-font-size-medium">**Symptoms**</span>
         
@@ -8,7 +8,9 @@
 <div class="line number3 index2 alt2">
 
 *   When I export a package using *Assets -> Export package*, it exports everything.
+
 </div>
+
 <div class="line number4 index3 alt1"><span class="wysiwyg-underline">**Cause**</span></div>
 	
 	
