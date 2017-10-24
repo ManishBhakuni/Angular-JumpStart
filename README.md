@@ -1,4 +1,5 @@
-**<span class="wysiwyg-underline">Symptoms</span>**
+
+        **<span class="wysiwyg-underline">Symptoms</span>**
 
 *   App size is bigger than the over-the-air download limit and forces iOS users to download the app via WiFi.
 *   The universal binary of the app or single slices are bigger than allowed from the Apple submission guidelines.
@@ -13,9 +14,17 @@ The [otool](http://www.unix.com/man-page/osx/1/otool/) report shows that single 
 
 [IL2CPP](http://blogs.unity3d.com/2015/05/06/an-introduction-to-ilcpp-internals/) converts ahead-of-time (AOT) C# code into C++ code which will be compiled into the final binary of your app using XCode and LLVM. This can lead to bigger universal binaries or app slices (32bit,64bit). Your code can be optimised depending on several factors. Read the following to gain insight in what you can do to improve your build size:
 
-<div>*<span class="wysiwyg-font-size-medium">**Why is the binary size of IL2CPP bigger than with mono?  
-**</span>*</div>
-<div>Two things apply:</div>
+<div>
+
+*<span class="wysiwyg-font-size-medium">**Why is the binary size of IL2CPP bigger than with mono?  
+**</span>*
+
+</div>
+<div>
+
+Two things apply:
+
+</div>
 
 *   If you make a universal build, there is a 32bit slice and a 64bit slice, which contains the exact same executable for 2 different architectures so nearly doubled size.
 *   IL2CPP produced bigger builds even if you just compare ARMv7 Mono with ARMv7 IL2CPP; this had to do with how we dealt with the type metadata. It was resolved in Unity 4.6.4p2 and improved further up to 4.7.0f1 and 5.4.0f1.
@@ -133,6 +142,8 @@ This might help you to understand your code, plugins or engine code even better.
 </div>
 
 This article applies to Unity versions 5.2.0p1 and higher, XCode 7 and higher, iOS 9.0 and higher
+
+      
 
       
 
