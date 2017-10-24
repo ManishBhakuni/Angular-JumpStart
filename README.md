@@ -1,6 +1,4 @@
-<span class="wysiwyg-underlinewysiwyg-font-size-medium">
-**Symptoms**
-</span>
+<span class="wysiwyg-underlinewysiwyg-font-size-medium">**Symptoms**</span>
         
 
         
